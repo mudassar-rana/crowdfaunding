@@ -8,6 +8,7 @@ import Inciar from '../screens/iniciar/Iniciar'
 import Abrir from '../screens/abrir/AbrirCuenta'
 import Ingresa from '../screens/ingresa/Ingresa'
 import Invertir from '../screens/invertir/Invertir'
+import SideBar from '../commonComponent/sideBar/SideBar'
 
 //stack screens
 const Stack = createNativeStackNavigator();
@@ -26,6 +27,7 @@ function StackNavigator() {
                 <Stack.Screen name="abrir" component={Abrir} />
                 <Stack.Screen name="ingresa" component={Ingresa} />
                 <Stack.Screen name="invertir" component={Invertir} />
+                <Stack.Screen name="sidebar" component={SideBar} />
 
             </Stack.Navigator>
         </NavigationContainer>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { styles } from './LoginStyle'
 import Building from '../../assests/building.png'
-import Button from '../../commonComponent/button/Button';
+import Button from '../button/Button';
 
 import { View, ImageBackground, Image, Text } from 'react-native';
 

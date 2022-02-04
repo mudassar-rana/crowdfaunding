@@ -1,7 +1,7 @@
 import React from 'react';
 import { styles } from './AbrirCuentaStyle';
 import Building from '../../assests/building.png'
-import Button from '../../commonComponent/button/Button';
+import Button from '../button/Button';
 
 import { View, ImageBackground, Image, Text, TextInput, TextInputComponent, } from 'react-native';
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { View, ImageBackground, Image, Text, TextInput, } from 'react-native';
 import { styles } from './Ingresastyle'
 import Building from '../../assests/building.png'
-import Button from '../../commonComponent/button/Button';
+import Button from '../button/Button';
 const Ingresa = ({ navigation }) => {
     return (
         <View style={styles.container}>
